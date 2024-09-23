@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: hsl(0, 68%, 68%);
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.logo{
+    display: inline-block;
+}
+.logo-img {
+    width: 80px;
+    height: auto;
+   
+}
+
+/* .institute-name h1 {
+    color: white;
+    font-size: 24px;
+    align-items: center;
+} */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background: rgb(0, 0, 0);
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+
+.marquee-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  
+  .marquee-section {
+    background-color: #ffcbcb;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px; 
+    width: 30%;
+    overflow: hidden; 
+  }
+  h2 {
+    text-align: center;
+  }

@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+header .institute-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+}
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+}
+.slide-section {
+    display: flex;
+    overflow-x: auto;
+    white-space: wrap;
+    background-color: #222;
+    padding: 10px;
+}
+.slide {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 10px;
+}
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+.notice-board, .upcoming-events {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2, h3 {
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer div {
+    flex: 1;
+    margin: 10px;
+}
+.social-media a {
+    margin-right: 10px;
+}
+.social-media a img {
+    width: 30px;
+}
+.marquee-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  /* Section Styling */
+  .marquee-section {
+    background-color: #ffcbcb;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px; /* Set a fixed height for better scrolling effect */
+    width: 30%; /* Set width for side-by-side display */
+    overflow: hidden; /* Hide overflow content */
+  }
+  h2 {
+    text-align: center;
+  }
